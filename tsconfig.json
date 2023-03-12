@@ -1,4 +1,12 @@
 {
-    "compilerOptions": {},
-    "extends": "expo/tsconfig.base"
-  }
+  "compilerOptions": {
+    "skipLibCheck": true,
+    // "sourceMap": false,
+    "strictNullChecks": true,
+    "target": "es2019",
+    "types": ["node"],
+    "lib": ["es2021", "dom", "esnext"]
+  },
+  "exclude": ["node_modules"],
+  "extends": "expo/tsconfig.base"
+}

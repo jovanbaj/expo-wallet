@@ -2,6 +2,7 @@
   "name": "expo-wallet",
   "version": "1.0.0",
   "scripts": {
+    "tsc": "tsc --skipLibCheck",
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
@@ -12,6 +13,11 @@
     "expo-constants": "14.2.1",
     "expo-linking": "4.0.1",
     "expo-router": "1.2.2",
+    "ethers":"6.1.0",
+    "@ethersproject/providers": "5.7.2",
+    "@walletconnect/web3-provider": "1.8.0",
+    "@coinbase/wallet-mobile-sdk": "1.0.5",
+    "expo-secure-store": "12.1.1",
     "expo-splash-screen": "0.18.1",
     "expo-status-bar": "1.4.4",
     "native-base": "3.4.28",
@@ -22,8 +28,7 @@
     "react-native-reanimated": "2.14.4",
     "react-native-safe-area-context": "4.5.0",
     "react-native-screens": "3.20.0",
-    "react-native-svg": "13.4.0",
-    "react-native-web": "0.18.12"
+    "react-native-svg": "13.4.0"
   },
   "devDependencies": {
     "@babel/core": "7.21.0",

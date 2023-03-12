@@ -1,0 +1,14 @@
+{
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/node_modules": true,
+    "**/.merlin": true,
+    "**/.next": true
+  },
+  "files.insertFinalNewline": true,
+  "npm.packageManager": "yarn",
+  "css.lint.emptyRules": "ignore"
+}
